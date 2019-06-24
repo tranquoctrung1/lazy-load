@@ -1,0 +1,22 @@
+extends _layout/layout
+
+
+block variables
+	- var title = 'About'
+	- var description = 'Description for about page'
+	- var bodyclass = 'about'
+
+block body 
+	section#section1
+		.container
+			.row
+				.col
+					.classname Lorem ipsum dolor sit amet consectetur adipisicing elit. A illum rerum, cupiditate eveniet atque officia nostrum! Qui, sed nesciunt alias, repellat dignissimos, ullam autem corporis totam odio excepturi quas dolore!
+					a.link(href="#section2") click to auto scroll down section2
+	section#section2
+		.container
+			.row
+				.col
+					.classname Lorem ipsum dolor sit amet consectetur adipisicing elit. A illum rerum, cupiditate eveniet atque officia nostrum! Qui, sed nesciunt alias, repellat dignissimos, ullam autem corporis totam odio excepturi quas dolore!
+					a.link(href="#section1") click to auto scroll down section1
+					a(href="#top") click to auto scroll to top

@@ -1,0 +1,25 @@
+header {
+  color: red; }
+
+footer {
+  color: green; }
+
+.lazy {
+  display: block;
+  width: 50%; }
+
+.ad {
+  color: green; }
+
+.classname {
+  color: red; }
+
+#section1 {
+  height: 60rem;
+  background: whitesmoke;
+  margin-bottom: 3rem; }
+
+#section2 {
+  height: 60rem;
+  background: red;
+  margin-bottom: 3rem; }
